@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "BEYNATION PORTFOLIO",
+    "slug": "beynation-portfolio",
+    "scheme": "beynation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#050B14",
+    "platforms": ["android", "ios", "web"],
+    "android": {
+      "package": "com.beynation.portfolio",
+      "adaptiveIcon": {
+        "backgroundColor": "#050B14"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.beynation.portfolio",
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "BEYNATION Portfolio",
+      "shortName": "BEYNATION",
+      "description": "Developer portfolio: projects, skills, services and contact.",
+      "backgroundColor": "#050B14",
+      "themeColor": "#050B14"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {}
+  }
+}
